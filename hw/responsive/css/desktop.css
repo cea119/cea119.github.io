@@ -1,0 +1,7 @@
+body{
+  background-color: pink;
+}
+
+nav a {
+  display: inline-block;
+}
