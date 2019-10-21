@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
   body {
     background-color: lavender;
     font-size: 9px;
@@ -6,30 +6,30 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
   .column{
     padding-top:0px;
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
 p {
   hyphens: none | manual | auto
 }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
   footer{
     font-size:7px;
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
   .slidebar{
     line-height: 5px;
   }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
   a{
     font-size: 12px;
     line-height: 10px;
@@ -37,12 +37,12 @@ p {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
   h2{
     font-size: 10px;
   }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
 .grid-container{
   font-size: 5px;
   padding: 5px;
@@ -51,7 +51,7 @@ p {
 }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
 .grid-container1{
   font-size: 5px;
   padding: 5px;
@@ -60,7 +60,7 @@ p {
 }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
   .gridcontainer2{
     font-size: 5px;
     padding: 5px;
@@ -68,7 +68,7 @@ p {
    border-width: 3px;
   }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px) {
 .gridcontainer3{
   font-size: 5px;
   padding: 5px;
