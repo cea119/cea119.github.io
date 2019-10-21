@@ -14,8 +14,8 @@ body{
   width: 100px;
   background-color:#ffe5e5;
   position: fixed;
-  height: 50%
-  overflow: auto;
+  height: 50%;
+  overflow:auto;
   line-height:10%;
 }
 
@@ -145,7 +145,6 @@ a:hover{
 .images1{
   height:390px;
   width: 290px;
-  content: center;
   margin: 5px;
   padding:10px;
 }
