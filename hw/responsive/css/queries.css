@@ -37,10 +37,10 @@
     border-width: 3px;
   }
 
-  .grid-container1{
+  .gridcontainer1{
     font-size: 15px;
     padding: 5px;
-    grid-column-gap: 5px;
+    grid-column-gap:5px;
     border-width: 3px;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
