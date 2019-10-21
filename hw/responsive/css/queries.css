@@ -49,7 +49,7 @@
   .gridcontainer2{
     font-size: 15px;
     padding: 5px;
-    grid-column-gap: 15px;
+    grid-column-gap:5px;
     border-width: 3px;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
