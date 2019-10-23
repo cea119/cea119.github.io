@@ -43,6 +43,7 @@
     grid-column-gap:5px;
     border-width: 3px;
     grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
   }
 
   .gridcontainer2{
@@ -51,6 +52,7 @@
     grid-column-gap:5px;
     border-width: 3px;
     grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
   }
 
   .gridcontainer3{
