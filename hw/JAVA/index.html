@@ -7,72 +7,8 @@
   <meta name="description:" content="Visit Miami">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
 
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").hide();
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  $("h4").mouseover(function(){
-    $("h4").css("background-color", "pink");
-  });
-  $("h4").mouseout(function(){
-    $("h4").css("background-color", "#DDD4EA");
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  $("a").mouseenter(function(){
-    $("a").css("background-color", "lightgray");
-  });
-  $("a").mouseleave(function(){
-    $("a").css("background-color", "#DDD4EA");
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  $(".btn1").click(function(){
-    $("h2").hide();
-  });
-  $(".btn2").click(function(){
-    $("h2").show();
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  $("h1").click(function(){
-    alert("WELCOME TO MIAMI- ENJOY OUR ENDLESS SUMMER!!.");
-  });
-});
-</script>
-
-<!-- JQUERY (HTML)-->
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("ul").after("<p>These are some of my recommendations- hope you like them:)</p>");
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("h3").css("color", "purple");
-  });
-});
-</script>
 
 <!--HTML code STARTS NOW-->
 
@@ -101,7 +37,7 @@ $(document).ready(function(){
 
 
 <section>
-   <img class="PHOTO" src="MIAMISPOTS/skyline.jpg" alt="MIAMI">
+   <img id="PHOTO" src="MIAMISPOTS/skyline.jpg" alt="MIAMI">
 </section>
 
 <section>
