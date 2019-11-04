@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(90deg, #fbade8, #ade9fb);
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   color: grey;
   padding: 1px 16px;
@@ -37,7 +37,7 @@ h1:after {
 
 h2 {
   color: white;
-  font: 35px Helvetica, Sans-Serif;
+  font: 45px Helvetica, Sans-Serif;
   text-align: center;
 }
 

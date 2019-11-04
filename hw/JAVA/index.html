@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <title> VISIT MIAMI</title>
+  <meta name="author:" content="Corina Azpurua">
+  <meta name="description:" content="Visit Miami">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
   $("button").click(function(){
@@ -9,6 +15,59 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<script>
+$(document).ready(function(){
+  $("h4").mouseover(function(){
+    $("h4").css("background-color", "pink");
+  });
+  $("h4").mouseout(function(){
+    $("h4").css("background-color", "#DDD4EA");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("a").mouseenter(function(){
+    $("a").css("background-color", "lightgray");
+  });
+  $("a").mouseleave(function(){
+    $("a").css("background-color", "#DDD4EA");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("h2").hide();
+  });
+  $(".btn2").click(function(){
+    $("h2").show();
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("h1").click(function(){
+    alert("WELCOME TO MIAMI- ENJOY OUR ENDLESS SUMMER!!.");
+  });
+});
+</script>
+
+<!-- JQUERY (HTML)-->
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("ul").after("<p>These are some of my recommendations- hope you like them:)</p>");
+  });
+});
+</script>
+
+<!--HTML code STARTS NOW-->
+
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
 
@@ -36,6 +95,10 @@ $(document).ready(function(){
 <h2 class="about">WE LIVE WHERE YOU VACATION</h2>
 <h2 id="blue">WE LIVE WHERE YOU VACTATION</h2>
 <h2 id="purple">WE LIVE WHERE YOU VACATION</h2>
+
+<button class="btn1">Hide</button>
+<button class="btn2">Show</button>
+
 <p id="about">Miami is unlike any other city in the world. The vibrant city has something for everyone- from its famous night-life, to its white, sandy beaches- Miami promises a good time. Through this "Visit Miami" website, I share a couple of my favorite, hidden Miami spots. Have fun & enjoy Miami! </p>
 
 <h2>RESTAURANTS</h2>
@@ -49,6 +112,8 @@ $(document).ready(function(){
 
 <h4>List of Vendors</h4>
 <ol>
+  <button>Recommend</button>
+
   <li>Chef Chloe and the Vegan Cafe</li>
   <li>Coop</li>
   <li>Dal Plin</li>
@@ -60,6 +125,8 @@ $(document).ready(function(){
   <li>Sweetblendz</li>
   <li>Tran An</li>
   <li>Yuzu</li>
+
+
 
 </ol>
 <a href="https://miami.strochmarket.com/vendors">Learn more about the St. Roch Market</a>
@@ -132,10 +199,11 @@ $(document).ready(function(){
 <p> ASTRA is the ideal location for a date or a hang-out with friends. Located on a rooftop- it is the perfect place to enjoy the sunset while drinking some rosé. The lounge has vast seating and always has a good vibe. Each night, a different DJ/live band takes the stage. Recommend FOR SURE! </p>
 
 
+
+
  <!-- have brief summary and then bullet points which will hide with the button-->
 
 <button>Click to hide parragraphs! </button>
-
 
 <h2>Classic Miami</h2>
 <img src="MIAMISPOTS/screenshot1.png" alt="LOL">
