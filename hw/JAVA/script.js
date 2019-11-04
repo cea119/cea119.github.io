@@ -45,7 +45,6 @@ $(document).ready(function() {
 
 	$("#PHOTO").mouseover(function() {
 		$("#PHOTO").toggle(1000);
-		console.log("")
 	});
 
 });
