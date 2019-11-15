@@ -13,7 +13,7 @@ $(document).ready(function() {
 	});
 
 	$("a").mouseenter(function() {
-		$("a").css("background-color", "lightgray");
+		$("a").css("background-color", "pink");
 	});
 
 	$("a").mouseleave(function() {
