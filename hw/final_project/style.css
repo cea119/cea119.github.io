@@ -1,0 +1,36 @@
+body {
+  font-size: 20px;
+  width: 970px;
+  margin: 0 auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+img {
+  width: 50%;
+  height: auto;
+}
