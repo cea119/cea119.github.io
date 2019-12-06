@@ -44,3 +44,17 @@ footer {
   color: grey;
   text-align: center;
 }
+
+/* finds.html css */
+
+body {
+  font-size: 20px;
+  width: 970px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+iframe {
+  width: 420px;
+  height: 435px;
+}
