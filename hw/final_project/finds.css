@@ -14,7 +14,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #facb74;
   color: black;
 }
 
@@ -33,7 +33,7 @@ main {
   margin: 50px auto;
   border: 5px solid black; /* width, style, colour */
   display: inline-block;
-  width: 95%;
+  width: 100%;
   margin: 10% auto;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   padding: 1em;
@@ -61,7 +61,8 @@ p {
 iframe {
   width: 300px;
   height: 300px;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
@@ -77,4 +78,32 @@ footer {
 .embrace {
   color: #b886b6;
   font-weight: bold;
+}
+
+li {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+}
+
+.Instagram {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
 }
