@@ -91,3 +91,13 @@ p {
 .embrace {
   color: #b886b6;
 }
+
+button {
+  background: #ddd4ea;
+  border: medium none;
+  color: white;
+  height: 50px;
+  left: 74%;
+  top: 100px;
+  width: 100px;
+}

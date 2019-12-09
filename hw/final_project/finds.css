@@ -107,3 +107,13 @@ li {
   grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
+
+button {
+  background: #facb74;
+  border: medium none;
+  color: white;
+  height: 50px;
+  left: 74%;
+  top: 100px;
+  width: 100px;
+}
