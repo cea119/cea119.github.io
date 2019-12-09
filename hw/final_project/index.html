@@ -22,16 +22,14 @@
 <link href="https://fonts.googleapis.com/css?family=Mada&display=swap" rel="stylesheet">
 
 <!--jquery-->
+<script src="script.js" charset="utf-8"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/jquery-3.4.1.min.js" type="text/java">
 </script>
-<script src="script.js" charset="utf-8"></script>
 
-<link rel="stylesheet" href="script.js">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
 <!--jquery-->
 
 
@@ -57,12 +55,13 @@
 
 <section class="grid1">
 
-<img class="images" src="images/peace.jpg" alt="peace">
-<img class="images" src="images/polaroid.jpg" alt="polaroid">
-<img class="images" src="images/pose.jpg" alt="pose">
-<img class="images" src="images/pose.jpg" alt="pose">
-<img class="images" src="images/peace.jpg" alt="peace">
-<img class="images" src="images/polaroid.jpg" alt="polaroid">
+<a data-fancybox="gallery" href="images/peace.jpg"><img src="images/peace.jpg"></a>
+<a data-fancybox="gallery" href="images/polaroid.jpg"><img src="images/polaroid.jpg"></a>
+<a data-fancybox="gallery" href="images/pose.jpg"><img src="images/pose.jpg"></a>
+<a data-fancybox="gallery" href="images/pose.jpg"><img src="images/pose.jpg"></a>
+<a data-fancybox="gallery" href="images/peace.jpg"><img src="images/peace.jpg"></a>
+<a data-fancybox="gallery" href="images/polaroid.jpg"><img src="images/polaroid.jpg"></a>
+
 
 
 <section>
@@ -78,10 +77,21 @@
 <h2>What does Abrazate mean?  </h2>
 <p>Abrazate is Spanish for "Hug Yourself." Through this project, I want to learn how to embrace all that I am and help others do so as well. So, welcome to this journey- <b class="embrace">I promise it won't be boring! </b></p>
 
+
+
 <button> Make Me Bounce</button>
 
 </header>
 
+<script>
+$(document).ready(function() {
+$("button").click(function() {
+				$("h2").css("color", "#ddd4ea")
+					.slideUp(2000)
+					.slideDown(2000);
+					});
+});
+</script>
 
 </body>
 </main>
